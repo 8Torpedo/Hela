@@ -317,8 +317,8 @@ int main(void)
 		int i =0;
 		while(1){
 		for(i = 0; i<=3; i++ ){
-			showNumberOnDisplay(i,i);
-			showNumberOnDisplay(4,i);
+			showNumberOnDisplay(i,i);  /* Putting letters to display */
+			showNumberOnDisplay(4,i); 
 		}
 		}
 
